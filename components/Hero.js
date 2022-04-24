@@ -44,7 +44,7 @@ const Hero = () => {
                 <source src="/cryptocademy1.mp4"
                 type="video/mp4"/>
 
-                Sorry, your browser doesn't support embedded videos.
+                Sorry, your browser doesn&apos;t support embedded videos.
             </video>
 
         </div>

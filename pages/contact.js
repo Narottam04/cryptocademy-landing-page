@@ -28,23 +28,23 @@ const contact = () => {
             </h2>
             <form action="https://formsubmit.co/webdripdev@gmail.com" method="POST">
                 
-                <div class="relative z-0 mb-6 max-w-2xl group">
-                    <input type="text" name="name" class="block py-2.5 px-0 w-full text-lg  bg-transparent border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-blue-500 focus:outline-none focus:ring-0  peer" placeholder=" " required />
-                    <label for="name" class="absolute text-lg  text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your Name</label>
+                <div className="relative z-0 mb-6 max-w-2xl group">
+                    <input type="text" name="name" className="block py-2.5 px-0 w-full text-lg  bg-transparent border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-blue-500 focus:outline-none focus:ring-0  peer" placeholder=" " required />
+                    <label htmlFor="name" className="absolute text-lg  text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your Name</label>
                 </div>
 
-                <div class="relative z-0 mb-6 max-w-2xl group">
-                    <input type="email" name="email" class="block py-2.5 px-0 w-full text-lg  bg-transparent border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-blue-500 focus:outline-none focus:ring-0  peer" placeholder=" " required/>
-                    <label for="email" class="absolute text-lg  text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0  peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                <div className="relative z-0 mb-6 max-w-2xl group">
+                    <input type="email" name="email" className="block py-2.5 px-0 w-full text-lg  bg-transparent border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-blue-500 focus:outline-none focus:ring-0  peer" placeholder=" " required/>
+                    <label htmlFor="email" className="absolute text-lg  text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0  peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
                 </div>
 
                 <div className='max-w-2xl my-8'>
-                    <label for="message"  className="block  mb-2 text-lg  font-medium text-gray-900 dark:text-gray-400 ">Your message</label>
-                    <textarea id="message" type="text" name="message" rows="4" class="block p-2.5 w-full text-lg  rounded-lg border border-gray-600 placeholder-gray-400 text-white  bg-gray-900 focus:ring-blue-500 focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                    <label htmlFor="message"  className="block  mb-2 text-lg  font-medium text-gray-900 dark:text-gray-400 ">Your message</label>
+                    <textarea id="message" type="text" name="message" rows="4" className="block p-2.5 w-full text-lg  rounded-lg border border-gray-600 placeholder-gray-400 text-white  bg-gray-900 focus:ring-blue-500 focus:border-blue-500" placeholder="Leave a comment..."></textarea>
 
                 </div>
 
-                <button type="submit" class="text-white  focus:ring-4 focus:outline-none font-medium rounded-lg text-xl w-full sm:w-auto px-5 py-2.5 text-center bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">Submit</button>
+                <button type="submit" className="text-white  focus:ring-4 focus:outline-none font-medium rounded-lg text-xl w-full sm:w-auto px-5 py-2.5 text-center bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">Submit</button>
             </form>
 
 

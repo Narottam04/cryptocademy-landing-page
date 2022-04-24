@@ -40,7 +40,7 @@ const faq = () => {
                   Does it involve real money?
                 </p>
                 <p className="text-gray-200">
-                    No, cryptocademy offers it's users virtual usd to buy and sell crypto currency.
+                    No, cryptocademy offers it&apos;s users virtual usd to buy and sell crypto currency.
                 </p>
               </div>
 
@@ -58,7 +58,7 @@ const faq = () => {
                   What are the future plans of cryptocademy?
                 </p>
                 <p className="text-gray-200">
-                We have plans to help users to learn more about cryptocurrency & trading. Currently we only have a global leaderboard with the top 100 users. We're planning to add a feature where users can create custom rooms and compete with their friends.
+                We have plans to help users to learn more about cryptocurrency & trading. Currently we only have a global leaderboard with the top 100 users. We&apos;re planning to add a feature where users can create custom rooms and compete with their friends.
                 Do drop us an email at webdripdev@gmail.com with any suggestions or feedback that you may have for us. We would appreciate that!
                 </p>
               </div>

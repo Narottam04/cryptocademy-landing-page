@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { AiFillAndroid,AiFillWindows } from "react-icons/ai";
 import { GiWireframeGlobe } from "react-icons/gi";
@@ -19,12 +20,12 @@ const Cta = () => {
                 Web
             </a>
 
-            <a href='/' className="text-white bg-black hover:bg-black/90 focus:ring-4 focus:outline-none focus:ring-black/50 font-medium rounded-lg text-sm px-5 py-2.5 center inline-flex items-center mr-2 mb-2 text-left ">
+            <button className="text-white bg-black hover:bg-black/90 focus:ring-4 focus:outline-none focus:ring-black/50 font-medium rounded-lg text-sm px-5 py-2.5 center inline-flex items-center mr-2 mb-2 text-left ">
                 <AiFillAndroid className='w-7 h-7 text-white mr-2'/>
                 Coming soon on
                 <br />
                 Android
-            </a>
+            </button>
             
             <button type="button" className="text-white bg-black hover:bg-black/90 focus:ring-4 focus:outline-none focus:ring-black/50 font-medium rounded-lg text-sm px-5 py-2.5 center inline-flex items-center mr-2 mb-2 text-left ">
                 <AiFillWindows className='w-7 h-7 text-white mr-2'/>

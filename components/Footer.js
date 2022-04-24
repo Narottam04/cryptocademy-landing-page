@@ -7,12 +7,12 @@ export const Footer = () => {
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
-            <a
+            <Link
               href="/"
               aria-label="Go home"
               title="Company"
-              className="inline-flex items-center"
             >
+              <div className="inline-flex items-center">
                 <Image
                     src={logo}
                     alt="Cryptocademy"
@@ -20,7 +20,8 @@ export const Footer = () => {
                     height={108} 
                     // placeholder="blur"
                 />
-            </a>
+              </div>
+            </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-300">
               Cryptocademy provides a real-time, risk-free trading simulator that allows you to msater crypto trading and investing at zero cost. Hone your skills and feel confident with crypto trading and investing.
@@ -94,22 +95,22 @@ export const Footer = () => {
                 F.A.Q
               </a>
             </li> */}
-            <li>
-              <a
+            {/* <li>
+              <Link
                 href="/"
                 className="text-sm text-gray-300 transition-colors duration-300 "
               >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/"
                 className="text-sm text-gray-200 transition-colors duration-300 "
               >
                 Terms &amp; Conditions
-              </a>
-            </li>
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>
