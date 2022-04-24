@@ -1,5 +1,7 @@
 import { Nav } from '../components/Navbar'
 import { Footer } from '../components/Footer'
+import Head from 'next/head'
+
 const faq = () => {
     return (
     <section>

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Nav } from '../components/Navbar'
 import { Footer } from '../components/Footer'
+import Head from 'next/head'
+
 const contact = () => {
   return (
     <>
