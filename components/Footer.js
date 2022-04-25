@@ -88,7 +88,7 @@ export const Footer = () => {
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             {/* <li>
-              <a
+                
                 href="/"
                 className="text-sm text-gray-300 transition-colors duration-300 "
               >
