@@ -86,7 +86,7 @@ const faq = () => {
                   What source does cryptocademy use for its data?
                 </p>
                 <p className="text-gray-200">
-                    You can email us at webdripdev@gmail.com or fill out the contact form on our website.
+                  Cryptocademy fetches cryptocurrencies prices using coingecko API.
                 </p>
               </div>
             </div>
