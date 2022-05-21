@@ -1,7 +1,6 @@
 import React from 'react'
 import { AiFillAndroid,AiFillWindows } from "react-icons/ai";
 import { GiWireframeGlobe } from "react-icons/gi";
-import ReactPlayer from 'react-player'
 
 const Hero = () => {
   return (
@@ -40,7 +39,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="w-full mx-auto mt-20 text-center flex justify-center md:w-full">
-            <video controls>
+            <video controls poster='poster.png' >
                 <source src="/cryptocademy1.mp4"
                 type="video/mp4"/>
 
