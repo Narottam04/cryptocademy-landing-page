@@ -49,14 +49,6 @@ const privacy = () => {
 
             This Services does not uses these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collection information and to improve their services. You have the option to either accept or refuse these cookies, and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
             </p>
-
-            <h2 className="my-4 pt-4 text-xl font-bold leading-tight text-white md:text-3xl">Cookies</h2>
-
-            <p className="mb-5 text-base text-gray-300 md:text-lg">
-            Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your devices’s internal memory.
-
-            This Services does not uses these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collection information and to improve their services. You have the option to either accept or refuse these cookies, and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-            </p>
             
             <h2 className="my-4 pt-4 text-xl font-bold leading-tight text-white md:text-3xl">Service Providers</h2>
 
