@@ -49,6 +49,11 @@ export const Footer = () => {
                 F.A.Q
               </p>
             </Link>
+            <Link href="/privacy">
+              <p className="text-base cursor-pointer tracking-wide text-gray-300">
+                Privacy Policy
+              </p>
+            </Link>
             
           </div>
           <div>
@@ -95,22 +100,15 @@ export const Footer = () => {
                 F.A.Q
               </a>
             </li> */}
-            {/* <li>
+            <li>
               <Link
-                href="/"
+                href="/privacy"
                 className="text-sm text-gray-300 transition-colors duration-300 "
               >
                 Privacy Policy
               </Link>
             </li>
-            <li>
-              <Link
-                href="/"
-                className="text-sm text-gray-200 transition-colors duration-300 "
-              >
-                Terms &amp; Conditions
-              </Link>
-            </li> */}
+            
           </ul>
         </div>
       </div>
