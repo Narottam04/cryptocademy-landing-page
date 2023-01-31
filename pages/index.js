@@ -21,6 +21,8 @@ export default function Home() {
         <meta property="og:type" content="Trading,Investment,Courses,Learning"/>
         <meta name="language" content="EN"/>
         <meta name="author" content="Cryptocademy"/>
+        {/* analytics */}
+        <script async defer data-website-id="c21505f1-aa80-4f1c-8175-d3c49bec4ae9" src="https://analytics.webdrip.in/umami.js"></script>
       </Head>
       <Nav/>
       <Hero/>
